@@ -6,8 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "SistemaRRHH_EF_DF\AccesoDatos.csproj", "{4B820834-65B9-4A3A-B5A7-3D317807DBD6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion", "Presentacion\Presentacion.csproj", "{82C1AFF2-7AA3-4F81-9F7A-320732EE2221}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1C2C11D2-A8CA-4EFC-A1D0-6AD85F2CB787} = {1C2C11D2-A8CA-4EFC-A1D0-6AD85F2CB787}
+		{4B820834-65B9-4A3A-B5A7-3D317807DBD6} = {4B820834-65B9-4A3A-B5A7-3D317807DBD6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{1C2C11D2-A8CA-4EFC-A1D0-6AD85F2CB787}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B820834-65B9-4A3A-B5A7-3D317807DBD6} = {4B820834-65B9-4A3A-B5A7-3D317807DBD6}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{B618CAC8-4422-4C19-A93C-ED2DB2B429E4}"
 	ProjectSection(SolutionItems) = preProject

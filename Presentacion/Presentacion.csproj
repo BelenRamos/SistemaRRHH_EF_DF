@@ -204,6 +204,18 @@
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmOfertasLaborales.resx">
+      <DependentUpon>frmOfertasLaborales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfiles.resx">
+      <DependentUpon>frmPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPostulantes.resx">
+      <DependentUpon>frmPostulantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTurnos.resx">
+      <DependentUpon>frmTurnos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -19,8 +19,9 @@ namespace Presentacion
         {
             InitializeComponent();
             leftBorderBtn = new Panel();
-            leftBorderBtn.Size = new System.Drawing.Size(7, 43);
+            leftBorderBtn.Size = new System.Drawing.Size(7, 45);
             panelMenu.Controls.Add(leftBorderBtn);
+
             //Form
             Text = string.Empty;
             ControlBox = false;
@@ -31,12 +32,11 @@ namespace Presentacion
         //Structs
         private struct RGBColors
         {
-            public static Color color1 = Color.FromArgb(248, 186, 87);
-            public static Color color2 = Color.FromArgb(209, 123, 96);
-            public static Color color3 = Color.FromArgb(95, 108, 90);
-            public static Color color4 = Color.FromArgb(193, 107, 131);
-            public static Color color5 = Color.FromArgb(249, 88, 155);
-            public static Color color6 = Color.FromArgb(24, 161, 251);
+            public static Color color1 = Color.FromArgb(223, 170, 36);
+            public static Color color2 = Color.FromArgb(107, 219, 229);
+            public static Color color3 = Color.FromArgb(163, 206, 117);
+            public static Color color4 = Color.FromArgb(158, 54, 138);
+            
         }
         //Methods
         private void ActivateButton(object sender, Color color)
@@ -103,10 +103,9 @@ namespace Presentacion
             lblTitleChildFrm.Text = "Home";
         }
 
-
         //Events
         //Reset
-        private void BtnHome_Click(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
             if (currentChildFrm != null)
             {
@@ -116,31 +115,29 @@ namespace Presentacion
         }
 
         //Menu Button_Clicks
-        private void BtnPerfiles_Click(object sender, EventArgs e)
+        private void btnPerfiles_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
             OpenChildForm(new frmPerfiles());
         }
-
-        private void BtnOfertasLaborales_Click(object sender, EventArgs e)
+        
+        private void btnPostulantes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(new frmOfertasLaborales());
-        }
-
-        private void BtnPostulantes_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color3);
             OpenChildForm(new frmPostulantes());
         }
-
-        private void BtnTurnos_Click(object sender, EventArgs e)
+        private void btnOfertasLaborales_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color3);
+            OpenChildForm(new frmOfertasLaborales());
+        }
+        private void btnTurnos_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
             OpenChildForm(new frmTurnos());
         }
 
-        private void BtnMenu_Click(object senderBtn, EventArgs e)
+        private void btnMenu_Click(object sender, EventArgs e)
         {
             Reset();
         }
@@ -155,8 +152,6 @@ namespace Presentacion
             ReleaseCapture();
             SendMessage(Handle, 0x112, 0xf012, 0);
         }
-
-
 
         //Close-Maximize-Minimize
 
@@ -181,6 +176,8 @@ namespace Presentacion
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        
     }
 }
 
