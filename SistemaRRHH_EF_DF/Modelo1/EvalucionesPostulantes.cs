@@ -5,14 +5,14 @@ using System.Collections.Generic;
 // If you have enabled NRTs for your project, then un-comment the following line:
 // #nullable disable
 
-namespace SistemaRRHH_EF_DF.Modelo
+namespace SistemaRRHH_EF_DF.Modelo1
 {
-    public partial class EvaluacionesTipos
+    public partial class EvalucionesPostulantes
     {
+        public int NroPostulante { get; set; }
         public int NroEvaluacion { get; set; }
-        public int IdTipo { get; set; }
 
-        public virtual TipoEvaluaciones IdTipoNavigation { get; set; }
         public virtual Evaluaciones NroEvaluacionNavigation { get; set; }
+        public virtual Postulantes NroPostulanteNavigation { get; set; }
     }
 }

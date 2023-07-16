@@ -147,6 +147,7 @@ namespace Presentacion
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private static extern void SendMessage(IntPtr hWnd, int wMsg, int wParam, int lParam);
+
         private void BarraDeTitulo_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();

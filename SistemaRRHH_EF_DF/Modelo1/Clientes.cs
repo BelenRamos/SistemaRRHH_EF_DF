@@ -5,13 +5,14 @@ using System.Collections.Generic;
 // If you have enabled NRTs for your project, then un-comment the following line:
 // #nullable disable
 
-namespace SistemaRRHH_EF_DF.Modelo
+namespace SistemaRRHH_EF_DF.Modelo1
 {
     public partial class Clientes
     {
         public Clientes()
         {
             ClientesTelefonos = new HashSet<ClientesTelefonos>();
+            OlClientes = new HashSet<OlClientes>();
         }
 
         public int Id { get; set; }
@@ -19,5 +20,6 @@ namespace SistemaRRHH_EF_DF.Modelo
         public string Mail { get; set; }
 
         public virtual ICollection<ClientesTelefonos> ClientesTelefonos { get; set; }
+        public virtual ICollection<OlClientes> OlClientes { get; set; }
     }
 }

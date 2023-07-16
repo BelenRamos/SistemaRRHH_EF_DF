@@ -29,28 +29,28 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.BarraDeTitulo = new System.Windows.Forms.Panel();
-            this.lblTitleChildFrm = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panelDesktop = new System.Windows.Forms.Panel();
-            this.btnMinimize = new FontAwesome.Sharp.IconPictureBox();
-            this.btnExit = new FontAwesome.Sharp.IconPictureBox();
-            this.btnMaximize = new FontAwesome.Sharp.IconPictureBox();
-            this.iconCurrentChildFrm = new FontAwesome.Sharp.IconPictureBox();
             this.btnTurnos = new FontAwesome.Sharp.IconButton();
             this.btnOfertasLaborales = new FontAwesome.Sharp.IconButton();
             this.btnPostulantes = new FontAwesome.Sharp.IconButton();
             this.btnPerfiles = new FontAwesome.Sharp.IconButton();
+            this.panelLogo = new System.Windows.Forms.Panel();
             this.btnMenu = new System.Windows.Forms.PictureBox();
+            this.BarraDeTitulo = new System.Windows.Forms.Panel();
+            this.btnMinimize = new FontAwesome.Sharp.IconPictureBox();
+            this.btnExit = new FontAwesome.Sharp.IconPictureBox();
+            this.btnMaximize = new FontAwesome.Sharp.IconPictureBox();
+            this.iconCurrentChildFrm = new FontAwesome.Sharp.IconPictureBox();
+            this.lblTitleChildFrm = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.BarraDeTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildFrm)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -66,117 +66,6 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(200, 450);
             this.panelMenu.TabIndex = 0;
-            // 
-            // panelLogo
-            // 
-            this.panelLogo.Controls.Add(this.btnMenu);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(200, 100);
-            this.panelLogo.TabIndex = 0;
-            // 
-            // BarraDeTitulo
-            // 
-            this.BarraDeTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
-            this.BarraDeTitulo.Controls.Add(this.btnMinimize);
-            this.BarraDeTitulo.Controls.Add(this.btnExit);
-            this.BarraDeTitulo.Controls.Add(this.btnMaximize);
-            this.BarraDeTitulo.Controls.Add(this.iconCurrentChildFrm);
-            this.BarraDeTitulo.Controls.Add(this.lblTitleChildFrm);
-            this.BarraDeTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BarraDeTitulo.Location = new System.Drawing.Point(200, 0);
-            this.BarraDeTitulo.Name = "BarraDeTitulo";
-            this.BarraDeTitulo.Size = new System.Drawing.Size(600, 54);
-            this.BarraDeTitulo.TabIndex = 1;
-            // 
-            // lblTitleChildFrm
-            // 
-            this.lblTitleChildFrm.AutoSize = true;
-            this.lblTitleChildFrm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(141)))), ((int)(((byte)(214)))));
-            this.lblTitleChildFrm.Location = new System.Drawing.Point(44, 26);
-            this.lblTitleChildFrm.Name = "lblTitleChildFrm";
-            this.lblTitleChildFrm.Size = new System.Drawing.Size(35, 13);
-            this.lblTitleChildFrm.TabIndex = 3;
-            this.lblTitleChildFrm.Text = "Home";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(200, 54);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(600, 16);
-            this.panel2.TabIndex = 2;
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(200, 70);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(600, 380);
-            this.panelDesktop.TabIndex = 3;
-            // 
-            // btnMinimize
-            // 
-            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
-            this.btnMinimize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
-            this.btnMinimize.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
-            this.btnMinimize.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
-            this.btnMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMinimize.IconSize = 20;
-            this.btnMinimize.Location = new System.Drawing.Point(520, 3);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(20, 20);
-            this.btnMinimize.TabIndex = 3;
-            this.btnMinimize.TabStop = false;
-            this.btnMinimize.Click += new System.EventHandler(this.BtnMinimize_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
-            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
-            this.btnExit.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.btnExit.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
-            this.btnExit.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnExit.IconSize = 20;
-            this.btnExit.Location = new System.Drawing.Point(577, 3);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(20, 20);
-            this.btnExit.TabIndex = 3;
-            this.btnExit.TabStop = false;
-            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
-            // 
-            // btnMaximize
-            // 
-            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
-            this.btnMaximize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
-            this.btnMaximize.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
-            this.btnMaximize.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
-            this.btnMaximize.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMaximize.IconSize = 20;
-            this.btnMaximize.Location = new System.Drawing.Point(547, 3);
-            this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(20, 20);
-            this.btnMaximize.TabIndex = 3;
-            this.btnMaximize.TabStop = false;
-            this.btnMaximize.Click += new System.EventHandler(this.BtnMaximize_Click_1);
-            // 
-            // iconCurrentChildFrm
-            // 
-            this.iconCurrentChildFrm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
-            this.iconCurrentChildFrm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(141)))), ((int)(((byte)(214)))));
-            this.iconCurrentChildFrm.IconChar = FontAwesome.Sharp.IconChar.Home;
-            this.iconCurrentChildFrm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(141)))), ((int)(((byte)(214)))));
-            this.iconCurrentChildFrm.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconCurrentChildFrm.Location = new System.Drawing.Point(6, 16);
-            this.iconCurrentChildFrm.Name = "iconCurrentChildFrm";
-            this.iconCurrentChildFrm.Size = new System.Drawing.Size(32, 32);
-            this.iconCurrentChildFrm.TabIndex = 3;
-            this.iconCurrentChildFrm.TabStop = false;
             // 
             // btnTurnos
             // 
@@ -257,6 +146,15 @@
             this.btnPerfiles.UseVisualStyleBackColor = true;
             this.btnPerfiles.Click += new System.EventHandler(this.btnPerfiles_Click);
             // 
+            // panelLogo
+            // 
+            this.panelLogo.Controls.Add(this.btnMenu);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(200, 100);
+            this.panelLogo.TabIndex = 0;
+            // 
             // btnMenu
             // 
             this.btnMenu.Image = global::Presentacion.Properties.Resources.icons8_m_641;
@@ -266,6 +164,109 @@
             this.btnMenu.TabIndex = 0;
             this.btnMenu.TabStop = false;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
+            // 
+            // BarraDeTitulo
+            // 
+            this.BarraDeTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
+            this.BarraDeTitulo.Controls.Add(this.btnMinimize);
+            this.BarraDeTitulo.Controls.Add(this.btnExit);
+            this.BarraDeTitulo.Controls.Add(this.btnMaximize);
+            this.BarraDeTitulo.Controls.Add(this.iconCurrentChildFrm);
+            this.BarraDeTitulo.Controls.Add(this.lblTitleChildFrm);
+            this.BarraDeTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BarraDeTitulo.Location = new System.Drawing.Point(200, 0);
+            this.BarraDeTitulo.Name = "BarraDeTitulo";
+            this.BarraDeTitulo.Size = new System.Drawing.Size(600, 54);
+            this.BarraDeTitulo.TabIndex = 1;
+            this.BarraDeTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraDeTitulo_MouseDown);
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
+            this.btnMinimize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
+            this.btnMinimize.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
+            this.btnMinimize.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
+            this.btnMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnMinimize.IconSize = 20;
+            this.btnMinimize.Location = new System.Drawing.Point(520, 3);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(20, 20);
+            this.btnMinimize.TabIndex = 3;
+            this.btnMinimize.TabStop = false;
+            this.btnMinimize.Click += new System.EventHandler(this.BtnMinimize_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
+            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
+            this.btnExit.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
+            this.btnExit.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
+            this.btnExit.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnExit.IconSize = 20;
+            this.btnExit.Location = new System.Drawing.Point(577, 3);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(20, 20);
+            this.btnExit.TabIndex = 3;
+            this.btnExit.TabStop = false;
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
+            // 
+            // btnMaximize
+            // 
+            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
+            this.btnMaximize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
+            this.btnMaximize.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
+            this.btnMaximize.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(208)))), ((int)(((byte)(238)))));
+            this.btnMaximize.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnMaximize.IconSize = 20;
+            this.btnMaximize.Location = new System.Drawing.Point(547, 3);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(20, 20);
+            this.btnMaximize.TabIndex = 3;
+            this.btnMaximize.TabStop = false;
+            this.btnMaximize.Click += new System.EventHandler(this.BtnMaximize_Click_1);
+            // 
+            // iconCurrentChildFrm
+            // 
+            this.iconCurrentChildFrm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
+            this.iconCurrentChildFrm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(141)))), ((int)(((byte)(214)))));
+            this.iconCurrentChildFrm.IconChar = FontAwesome.Sharp.IconChar.Home;
+            this.iconCurrentChildFrm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(141)))), ((int)(((byte)(214)))));
+            this.iconCurrentChildFrm.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconCurrentChildFrm.Location = new System.Drawing.Point(6, 16);
+            this.iconCurrentChildFrm.Name = "iconCurrentChildFrm";
+            this.iconCurrentChildFrm.Size = new System.Drawing.Size(32, 32);
+            this.iconCurrentChildFrm.TabIndex = 3;
+            this.iconCurrentChildFrm.TabStop = false;
+            // 
+            // lblTitleChildFrm
+            // 
+            this.lblTitleChildFrm.AutoSize = true;
+            this.lblTitleChildFrm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(141)))), ((int)(((byte)(214)))));
+            this.lblTitleChildFrm.Location = new System.Drawing.Point(44, 26);
+            this.lblTitleChildFrm.Name = "lblTitleChildFrm";
+            this.lblTitleChildFrm.Size = new System.Drawing.Size(35, 13);
+            this.lblTitleChildFrm.TabIndex = 3;
+            this.lblTitleChildFrm.Text = "Home";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(93)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(200, 54);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(600, 16);
+            this.panel2.TabIndex = 2;
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(200, 70);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(600, 380);
+            this.panelDesktop.TabIndex = 3;
             // 
             // FrmMenu
             // 
@@ -280,13 +281,13 @@
             this.Text = "Form1";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.BarraDeTitulo.ResumeLayout(false);
             this.BarraDeTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildFrm)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.ResumeLayout(false);
 
         }

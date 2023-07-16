@@ -1,3 +1,3 @@
 Database First
-caffold-dbcontext "Server=localhost; Database= db_RRHH; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -outputdir Modelo
+Scaffold-dbcontext "Server=localhost; Database= db_RRHH; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -outputdir Modelo
 https://www.youtube.com/watch?v=o6iqoPDr-nw

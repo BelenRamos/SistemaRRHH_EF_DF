@@ -5,19 +5,20 @@ using System.Collections.Generic;
 // If you have enabled NRTs for your project, then un-comment the following line:
 // #nullable disable
 
-namespace SistemaRRHH_EF_DF.Modelo
+namespace SistemaRRHH_EF_DF.Modelo1
 {
-    public partial class Psicologos
+    public partial class Entrevistas
     {
-        public Psicologos()
+        public Entrevistas()
         {
+            EntrevistasPerfiles = new HashSet<EntrevistasPerfiles>();
             Turnos = new HashSet<Turnos>();
         }
 
-        public int Matricula { get; set; }
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
+        public int Numero { get; set; }
+        public string Observaciones { get; set; }
 
+        public virtual ICollection<EntrevistasPerfiles> EntrevistasPerfiles { get; set; }
         public virtual ICollection<Turnos> Turnos { get; set; }
     }
 }
